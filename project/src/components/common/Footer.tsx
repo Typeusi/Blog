@@ -69,15 +69,15 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-blue-400" />
-                <span className="text-gray-300">info@blogpro.com</span>
+                <span className="text-gray-300">info@zezo.com</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-blue-400" />
-                <span className="text-gray-300">+1 (555) 123-4567</span>
+                <span className="text-gray-300">+2001060965014</span>
               </li>
               <li className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-blue-400" />
-                <span className="text-gray-300">New York, NY 10001</span>
+                <span className="text-gray-300">Kafr El Sheikh, Egypt</span>
               </li>
             </ul>
           </div>
@@ -85,7 +85,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2024 BlogPro. All rights reserved.
+            © 2024 ZEZO. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link to="/privacy" className="text-gray-400 hover:text-white text-sm transition-colors">
