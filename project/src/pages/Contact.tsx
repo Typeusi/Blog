@@ -39,31 +39,31 @@ const Contact: React.FC = () => {
     {
       icon: <Mail className="h-6 w-6" />,
       title: 'Email Us',
-      details: 'info@blogpro.com',
+      details: 'zezo@example.com',
       description: 'Send us an email anytime!'
     },
     {
       icon: <Phone className="h-6 w-6" />,
       title: 'Call Us',
-      details: '+1 (555) 123-4567',
+      details: '+2001060965014',
       description: 'Mon-Fri from 8am to 5pm'
     },
     {
       icon: <MapPin className="h-6 w-6" />,
       title: 'Visit Us',
-      details: 'New York, NY 10001',
+      details: 'Kfr El Sheikh, Egypt',
       description: 'Come say hello at our office'
     }
   ];
 
   const faqs = [
     {
-      question: 'How do I start writing on BlogPro?',
+      question: 'How do I start writing on Blog?',
       answer: 'Simply create an account, and you can start writing immediately. Our intuitive editor makes it easy to create beautiful posts.'
     },
     {
-      question: 'Is BlogPro free to use?',
-      answer: 'Yes! BlogPro offers a free tier with all essential features. We also have premium plans with advanced features for professional writers.'
+      question: 'Is Blog free to use?',
+      answer: 'Yes! Blog offers a free tier with all essential features. We also have premium plans with advanced features for professional writers.'
     },
     {
       question: 'Can I customize my blog design?',
@@ -155,7 +155,7 @@ const Contact: React.FC = () => {
                         },
                       })}
                       type="email"
-                      placeholder="your.email@example.com"
+                      placeholder="zezo.email@example.com"
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     />
                     {errors.email && (
